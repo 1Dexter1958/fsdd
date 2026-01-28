@@ -1,0 +1,7 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Block Memory Generator module tb_New_Top.u_Top.i_Conv_Layer.i_Data_Record.u_Fast_Input_Data_Setup.u_Input_Map.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_New_Top.u_Top.i_Conv_Layer.u_FC_Cal.u_FC_MP.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb_New_Top.u_Top.i_Conv_Layer.u_FC_Cal.u_FC_Weight.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.

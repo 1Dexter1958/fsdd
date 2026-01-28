@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_1.srcs/sources_1/ip/CLK_100M" \
+"../../../../project_1.srcs/sources_1/ip/FC_Weight/sim/FC_Weight.v" \
+"../../../../project_1.srcs/sources_1/ip/FC_MP/sim/FC_MP.v" \
+"../../../../project_1.srcs/sources_1/ip/Input_Map/sim/Input_Map.v" \
+"../../../../project_1.srcs/sources_1/ip/CLK_100M/CLK_100M_clk_wiz.v" \
+"../../../../project_1.srcs/sources_1/ip/CLK_100M/CLK_100M.v" \
+"../../../../project_1.srcs/sources_1/new/Controler.v" \
+"../../../../project_1.srcs/sources_1/new/Conv_Layer.v" \
+"../../../../project_1.srcs/sources_1/new/FC_Cal.v" \
+"../../../../project_1.srcs/sources_1/new/Fast_Data_Record.v" \
+"../../../../project_1.srcs/sources_1/new/Fast_Input_Data_Setup.v" \
+"../../../../project_1.srcs/sources_1/new/Internal_Map.v" \
+"../../../../project_1.srcs/sources_1/new/Leak_FSM.v" \
+"../../../../project_1.srcs/sources_1/new/Leak_PE.v" \
+"../../../../project_1.srcs/sources_1/new/Top.v" \
+"../../../../project_1.srcs/sources_1/new/Uart_Rx.v" \
+"../../../../project_1.srcs/sources_1/new/Uart_Tx.v" \
+"../../../../project_1.srcs/sources_1/new/Uart_Tx_Rx.v" \
+"../../../../project_1.srcs/sources_1/new/fifo.v" \
+"../../../../project_1.srcs/sources_1/new/sfifo.v" \
+"../../../../project_1.srcs/sim_1/new/tb_New_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

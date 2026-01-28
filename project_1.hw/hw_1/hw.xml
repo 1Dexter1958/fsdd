@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2019.2 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7k325t_0" gui_info="dashboard1=hw_ila_1[xc7k325t_0/hw_ila_1/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_1/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_1/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7k325t_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="Bit_32/Top.ltx"/>
+      <Properties Property="PROBES.FILE" value="Bit_32/Top.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="Bit_32/Top.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="UNSIGNED"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="Time_Counter[31]"/>
+        <net name="Time_Counter[30]"/>
+        <net name="Time_Counter[29]"/>
+        <net name="Time_Counter[28]"/>
+        <net name="Time_Counter[27]"/>
+        <net name="Time_Counter[26]"/>
+        <net name="Time_Counter[25]"/>
+        <net name="Time_Counter[24]"/>
+        <net name="Time_Counter[23]"/>
+        <net name="Time_Counter[22]"/>
+        <net name="Time_Counter[21]"/>
+        <net name="Time_Counter[20]"/>
+        <net name="Time_Counter[19]"/>
+        <net name="Time_Counter[18]"/>
+        <net name="Time_Counter[17]"/>
+        <net name="Time_Counter[16]"/>
+        <net name="Time_Counter[15]"/>
+        <net name="Time_Counter[14]"/>
+        <net name="Time_Counter[13]"/>
+        <net name="Time_Counter[12]"/>
+        <net name="Time_Counter[11]"/>
+        <net name="Time_Counter[10]"/>
+        <net name="Time_Counter[9]"/>
+        <net name="Time_Counter[8]"/>
+        <net name="Time_Counter[7]"/>
+        <net name="Time_Counter[6]"/>
+        <net name="Time_Counter[5]"/>
+        <net name="Time_Counter[4]"/>
+        <net name="Time_Counter[3]"/>
+        <net name="Time_Counter[2]"/>
+        <net name="Time_Counter[1]"/>
+        <net name="Time_Counter[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="UNSIGNED"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="Time_Counter_Big[31]"/>
+        <net name="Time_Counter_Big[30]"/>
+        <net name="Time_Counter_Big[29]"/>
+        <net name="Time_Counter_Big[28]"/>
+        <net name="Time_Counter_Big[27]"/>
+        <net name="Time_Counter_Big[26]"/>
+        <net name="Time_Counter_Big[25]"/>
+        <net name="Time_Counter_Big[24]"/>
+        <net name="Time_Counter_Big[23]"/>
+        <net name="Time_Counter_Big[22]"/>
+        <net name="Time_Counter_Big[21]"/>
+        <net name="Time_Counter_Big[20]"/>
+        <net name="Time_Counter_Big[19]"/>
+        <net name="Time_Counter_Big[18]"/>
+        <net name="Time_Counter_Big[17]"/>
+        <net name="Time_Counter_Big[16]"/>
+        <net name="Time_Counter_Big[15]"/>
+        <net name="Time_Counter_Big[14]"/>
+        <net name="Time_Counter_Big[13]"/>
+        <net name="Time_Counter_Big[12]"/>
+        <net name="Time_Counter_Big[11]"/>
+        <net name="Time_Counter_Big[10]"/>
+        <net name="Time_Counter_Big[9]"/>
+        <net name="Time_Counter_Big[8]"/>
+        <net name="Time_Counter_Big[7]"/>
+        <net name="Time_Counter_Big[6]"/>
+        <net name="Time_Counter_Big[5]"/>
+        <net name="Time_Counter_Big[4]"/>
+        <net name="Time_Counter_Big[3]"/>
+        <net name="Time_Counter_Big[2]"/>
+        <net name="Time_Counter_Big[1]"/>
+        <net name="Time_Counter_Big[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>
